@@ -13,6 +13,7 @@ public class Remove_exclamation_marks {
                 str += arr[i];
             }
         }
+
         return str;
     }
 
