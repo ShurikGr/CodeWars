@@ -5,16 +5,8 @@ public class Remove_exclamation_marks {
      */
 
     static String removeExclamationMarks(String s) {
-        char[] arr = s.toCharArray();
-        int count = 0;
-        String str = "";
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] != '!') {
-                str += arr[i];
-            }
-        }
+        String str = s.replace("!", "");
 
         return str;
     }
-
 }
