@@ -13,6 +13,9 @@ public class Find_the_first_non_consecutive_number {
             }
         }
 
+
+
+
         return ii;
     }
 }
